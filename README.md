@@ -1,65 +1,39 @@
 # 8086 Assembly Language Programs
 
-A curated collection of **8085 Assembly Language programs** written as part of my daily learning and lab practice. This repository is updated regularly as I explore new concepts in microprocessors and low-level programming.
+A curated collection of 8086 assembly language programs written for practice and lab work.
 
----
+## Programs Included
 
-## 📌 Programs Included
+1. `addTwo16BitNumbersWithCarry.asm`
+	- Adds two 16-bit numbers and stores result + carry.
 
-### 1. Add Two 8-bit Numbers
+2. `multiplyTwo16BitNumbers.asm`
+	- Multiplies two 16-bit numbers and stores 32-bit result.
 
-* Adds two immediate 8-bit hexadecimal numbers.
-* Demonstrates basic arithmetic using the accumulator.
-* **Concepts:** MVI, ADD, Registers, Flags
+3. `divideTwo16BitNumbers.asm`
+	- Divides two 16-bit numbers and stores quotient + remainder.
 
-### 2. Store 8-bit Data at a Memory Location
+4. `subtractTwo16BitNumbersWithBorrow.asm`
+	- Subtracts two 16-bit numbers and stores result + borrow.
 
-* Stores the value `29H` at memory address `3005H`.
-* Uses the HL register pair for memory addressing.
-* **Concepts:** HL pair, Memory access, MVI M
+5. `addTwo32BitNumbers.asm`
+	- Adds two 32-bit numbers (word-wise) and stores final carry.
 
-### 3. Find the Largest of Two Numbers
+6. `subtractTwo32BitNumbers.asm`
+	- Subtracts two 32-bit numbers (word-wise) and stores final borrow.
 
-* Compares two 8-bit numbers and stores the larger one in the accumulator.
-* Implements conditional branching.
-* **Concepts:** CMP, JC, Conditional logic
+7. `findLargestOfTwo16BitNumbers.asm`
+	- Compares two 16-bit numbers and stores the larger one.
 
----
+8. `swapTwo16BitNumbers.asm`
+	- Swaps two 16-bit numbers in memory.
 
-## 🛠 Tools Used
+## Notes
 
-* **GNUSim8085** (primary simulator for execution and debugging)
-* Online 8085 simulators for quick testing
+- Most programs assume data is preloaded at memory locations around `1200H`.
+- Result locations are documented in each file's comments.
+- Programs use `ORG 2000H` and end with `HLT`.
 
----
+## Author
 
-## 📚 Learning Roadmap
-
-This repository will continue to grow with programs covering:
-
-* Arithmetic with carry and borrow
-* Memory-based operations
-* Loops and counters
-* Array processing
-* Sorting algorithms
-* Stack and subroutine concepts
-* Input/Output instructions
-
----
-
-## 🔄 Update Policy
-
-* New `.asm` files are added as soon as a new concept is learned
-* README is updated to reflect progress
-* Emphasis on clarity, correctness, and consistency
-
----
-
-## 👨‍💻 Author
-
-**Aditya Bhardwaj**
-B.Tech – Computer Science Engineering
-
----
-
-⭐ This repository represents my continuous journey to understand how processors work
+Aditya Bhardwaj
