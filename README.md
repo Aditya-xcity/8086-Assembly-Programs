@@ -43,6 +43,21 @@ A curated collection of 8086 assembly language programs written for practice and
 13. `addTwo32BitNumbersWithCarryIn.asm`
 	- Adds two 32-bit numbers with carry-in and stores final carry.
 
+14. `addTwo16BitNumbers.asm`
+	- Adds two 16-bit numbers and stores the result + carry.
+
+15. `subtractTwo16BitNumbers.asm`
+	- Subtracts two 16-bit numbers and stores the result + borrow.
+
+16. `addThree32BitNumbersWithCarry.asm`
+	- Adds three 32-bit numbers and stores the result + carry.
+
+17. `findLargestOfTwo32BitNumbers.asm`
+	- Compares two 32-bit numbers and stores the larger one.
+
+18. `swapTwo32BitNumbers.asm`
+	- Swaps two 32-bit numbers in memory.
+
 ## Notes
 
 - Most programs assume data is preloaded at memory locations around `1200H`.
