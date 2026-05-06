@@ -58,6 +58,15 @@ A curated collection of 8086 assembly language programs written for practice and
 18. `swapTwo32BitNumbers.asm`
 	- Swaps two 32-bit numbers in memory.
 
+19. `findSmallestOfTwo32BitNumbers.asm`
+	- Compares two 32-bit numbers and stores the smaller one.
+
+20. `increment16BitNumber.asm`
+	- Increments a 16-bit number and stores result + carry.
+
+21. `decrement16BitNumberWithBorrow.asm`
+	- Decrements a 16-bit number and stores result + borrow.
+
 ## Notes
 
 - Most programs assume data is preloaded at memory locations around `1200H`.
