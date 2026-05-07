@@ -76,6 +76,15 @@ A curated collection of 8086 assembly language programs written for practice and
 24. `xorTwo32BitNumbers.asm`
 	- Performs bitwise XOR on two 32-bit numbers.
 
+25. `subtractTwo32BitNumbersWithBorrow.asm`
+	- Subtracts two 32-bit numbers and stores the result + borrow.
+
+26. `not16BitNumber.asm`
+	- Performs bitwise NOT on one 16-bit number.
+
+27. `not32BitNumber.asm`
+	- Performs bitwise NOT on one 32-bit number.
+
 ## Notes
 
 - Most programs assume data is preloaded at memory locations around `1200H`.
