@@ -1,0 +1,87 @@
+# 8086 Assembly Language Programs
+
+A curated collection of 8086 assembly language programs written for practice and lab work.
+
+## Programs Included
+
+1. `addTwo16BitNumbersWithCarry.asm`
+	- Adds two 16-bit numbers and stores result + carry.
+
+2. `multiplyTwo16BitNumbers.asm`
+	- Multiplies two 16-bit numbers and stores 32-bit result.
+
+3. `divideTwo16BitNumbers.asm`
+	- Divides two 16-bit numbers and stores quotient + remainder.
+
+4. `subtractTwo16BitNumbersWithBorrow.asm`
+	- Subtracts two 16-bit numbers and stores result + borrow.
+
+5. `addTwo32BitNumbers.asm`
+	- Adds two 32-bit numbers (word-wise) and stores final carry.
+
+6. `subtractTwo32BitNumbers.asm`
+	- Subtracts two 32-bit numbers (word-wise) and stores final borrow.
+
+7. `findLargestOfTwo16BitNumbers.asm`
+	- Compares two 16-bit numbers and stores the larger one.
+
+8. `swapTwo16BitNumbers.asm`
+	- Swaps two 16-bit numbers in memory.
+
+9. `addThree16BitNumbersWithCarry.asm`
+	- Adds three 16-bit numbers and stores result + carry.
+
+10. `findSmallestOfTwo16BitNumbers.asm`
+	- Compares two 16-bit numbers and stores the smaller one.
+
+11. `increment32BitNumber.asm`
+	- Increments a 32-bit number and stores final carry.
+
+12. `decrement32BitNumberWithBorrow.asm`
+	- Decrements a 32-bit number and stores final borrow.
+
+13. `addTwo32BitNumbersWithCarryIn.asm`
+	- Adds two 32-bit numbers with carry-in and stores final carry.
+
+14. `addTwo16BitNumbers.asm`
+	- Adds two 16-bit numbers and stores the result + carry.
+
+15. `subtractTwo16BitNumbers.asm`
+	- Subtracts two 16-bit numbers and stores the result + borrow.
+
+16. `addThree32BitNumbersWithCarry.asm`
+	- Adds three 32-bit numbers and stores the result + carry.
+
+17. `findLargestOfTwo32BitNumbers.asm`
+	- Compares two 32-bit numbers and stores the larger one.
+
+18. `swapTwo32BitNumbers.asm`
+	- Swaps two 32-bit numbers in memory.
+
+19. `findSmallestOfTwo32BitNumbers.asm`
+	- Compares two 32-bit numbers and stores the smaller one.
+
+20. `increment16BitNumber.asm`
+	- Increments a 16-bit number and stores result + carry.
+
+21. `decrement16BitNumberWithBorrow.asm`
+	- Decrements a 16-bit number and stores result + borrow.
+
+22. `andTwo32BitNumbers.asm`
+	- Performs bitwise AND on two 32-bit numbers.
+
+23. `orTwo32BitNumbers.asm`
+	- Performs bitwise OR on two 32-bit numbers.
+
+24. `xorTwo32BitNumbers.asm`
+	- Performs bitwise XOR on two 32-bit numbers.
+
+## Notes
+
+- Most programs assume data is preloaded at memory locations around `1200H`.
+- Result locations are documented in each file's comments.
+- Programs use `ORG 2000H` and end with `HLT`.
+
+## Author
+
+Aditya Bhardwaj
