@@ -67,6 +67,15 @@ A curated collection of 8086 assembly language programs written for practice and
 21. `decrement16BitNumberWithBorrow.asm`
 	- Decrements a 16-bit number and stores result + borrow.
 
+22. `andTwo32BitNumbers.asm`
+	- Performs bitwise AND on two 32-bit numbers.
+
+23. `orTwo32BitNumbers.asm`
+	- Performs bitwise OR on two 32-bit numbers.
+
+24. `xorTwo32BitNumbers.asm`
+	- Performs bitwise XOR on two 32-bit numbers.
+
 ## Notes
 
 - Most programs assume data is preloaded at memory locations around `1200H`.
